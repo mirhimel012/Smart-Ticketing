@@ -7,8 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="p-4">
-    <header>
+<body>
+    <header class="p-4">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -41,7 +41,7 @@
     </header>
 
     <!-- main section start -->
-    <main>
+    <main class="p-4">
     <!-- 1 banner section start -->
     <section class="relative bg-cover bg-center h-screen rounded-3xl" style="background-image: url('./images/banner.png');">
         <div class="absolute inset-0"></div>
@@ -55,8 +55,39 @@
     <a href="#footer" class="btn btn-primary" id="scrollToHere">Learn More</a>
     
     <!-- 2 offer section start -->
-    <section>
-
+    <section class="flex flex-col items-center">
+        <div>
+            <h2 class="text-4xl font-extrabold">Best offers for you</h2>
+        </div>
+        <div>
+            <div class="flex justify-between items-center gap-4 m-16">
+                <div class="w-full flex justify-between bg-yellow-300 rounded-3xl">
+                        <div class="p-4">
+                            <h2 class="text-4xl font-semibold">15% OFF</h2>
+                            <p class="text-2xl">on your next purchase</p>
+                            <p class="text-2xl">use by January 2024</p>
+                        </div>
+                        <div class="p-4">
+                            <h2 class="text-4xl font-semibold">NEW15</h2>
+                            <p class="text-2xl">Coupon Code</p>
+                        </div>
+                </div>
+                <div class="w-full flex justify-between bg-yellow-300 rounded-3xl">
+                        <div class="p-4">
+                            <h2 class="text-4xl font-semibold">20% OFF</h2>
+                            <p class="text-2xl">on your next purchase</p>
+                            <p class="text-2xl">use by January 2024</p>
+                        </div>
+                        <div class="p-4">
+                            <h2 class="text-4xl font-semibold">Couple 20</h2>
+                            <p class="text-2xl">Coupon Code</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="btn btn-outline text-green-500">See All Offers</button>
+        </div>
     </section>
 
     <!-- 3 route, seat left and ticket price section start -->
@@ -89,14 +120,5 @@
             </nav>
         </div>
     </footer>
-
-     <!-- Script for smooth scrolling -->
-    <!-- <script>
-        document.getElementById('scrollToFooter').addEventListener('click', function() {
-            document.querySelector('#footer').scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    </script> -->
 </body>
 </html>
