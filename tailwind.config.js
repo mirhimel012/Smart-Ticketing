@@ -7,9 +7,3 @@ module.exports = {
     plugins: [],
   }
 
-// smooth scrolling
-  document.getElementById('scrollToHere').addEventListener('click', function() {
-    document.querySelector('#footer').scrollIntoView({
-        behavior: 'smooth'
-    });
-});
