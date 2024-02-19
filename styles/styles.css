@@ -1,0 +1,42 @@
+
+.font-inter
+{
+    font-family: "Inter", sans-serif
+}
+
+.font-raleway
+{
+    font-family: "Raleway", sans-serif
+}
+
+.font-roboto
+{
+    font-family: "Roboto", sans-serif;
+}
+
+.seat{
+    background-color: #F7F8F8;
+    border-radius: 12px;
+    padding: 17px 47px 17px 47px ;
+}
+
+.vertical-line{
+    border-left: 2px dashed lightgray;
+    height: full;
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
+
+.price-title
+{
+    color: #030712;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+
+}
+
+.selected-seat
+{
+    background-color: #1DD100;
+    color: white;
+}
